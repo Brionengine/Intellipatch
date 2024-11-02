@@ -1,4 +1,3 @@
-IntelliPatch
 IntelliPatch is an intelligent error correction and patching system designed to refine AI-generated responses, eliminating nonsensical or irrelevant elements. By detecting off-topic content, contradictions, and overly complex language, IntelliPatch transforms initial drafts into polished, coherent responses. With its modular structure, it’s ready to integrate into any language model pipeline, enhancing the clarity and relevance of outputs.
 
 Overview
