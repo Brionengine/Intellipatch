@@ -1,3 +1,27 @@
+# requirements.txt for IntelliPatch
+
+# Core NLP and text processing libraries
+nltk==3.6.7          # Natural Language Toolkit for tokenization, stemming, etc.
+spacy==3.2.1         # For advanced NLP tasks; use `python -m spacy download en_core_web_sm` for the language model
+
+# Machine learning and data handling
+scikit-learn==0.24.2 # Useful for data processing and potential pattern detection
+pandas==1.3.5        # For data handling and feedback logging
+
+# Optional - if you plan to use transformers or larger language models
+transformers==4.15.0 # For integration with advanced NLP models from Hugging Face
+
+# Logging and utilities
+loguru==0.5.3        # Advanced logging for tracking issues and improvements
+
+# Miscellaneous
+numpy==1.21.2        # Dependency for numerical operations, if needed for data processing
+
+# Ensure compatibility with Python 3.7+
+
+
+
+
 git clone https://github.com/your-repo/IntelliPatch.git
 cd IntelliPatch
 pip install -r requirements.txt
